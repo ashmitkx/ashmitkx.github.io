@@ -1,0 +1,7 @@
+# main links links
+main:
+    - title: 'Projects'
+      url: /projects/
+
+    - title: 'Curriculum Vitae'
+      url: /cv/
