@@ -7,4 +7,4 @@ redirect_from:
     - /resume
 ---
 
-**[Link to CV](/files/cv.pdf){:target="\_blank"}**
+**[Link to CV](/files/ashmit-khandelwal-cv.pdf){:target="\_blank"}**
