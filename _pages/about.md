@@ -21,3 +21,7 @@ _July '22_ - I'll be an instructor for the Introduction to Deep Learning course 
 <!-- _July '22_ - Selected to attend [Amazon ML Summer School 2022](https://amazonmlsummerschoolindia.splashthat.com/). -->
 
 _May '22_ - Interning at [National Centre for Polar and Ocean Research](https://ncpor.res.in/), working on Antarctic weather forecasting research.
+
+<br/>
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fashmitkx.github.io&count_bg=%23096CDD&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visits&edge_flat=true)](https://hits.seeyoufarm.com)
