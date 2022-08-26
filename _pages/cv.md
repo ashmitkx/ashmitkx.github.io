@@ -9,4 +9,4 @@ redirect_from:
 
 **[Link to CV](/files/ashmit-khandelwal-cv.pdf){:target="\_blank"}**
 
-_Updated 30 July, 2022_
+_Updated 26 Aug, 2022_
