@@ -8,9 +8,9 @@ redirect_from:
     - /about.html
 ---
 
-I'm Ashmit Khandelwal, a third year undergraduate Computer Science student at [BITS Pilani, K.K. Birla Goa Campus](https://www.bits-pilani.ac.in/goa/). I’m a machine learning enthusiast and developer, with experience in implementing deep learning models for **computer vision** tasks, including **semantic segmentation, and super resolution**. Currently exploring **Generative Models, Self‑supervised learning**, and computer vision research.
+I'm Ashmit Khandelwal, a third year undergraduate Computer Science student at [BITS Pilani, K.K. Birla Goa Campus](https://www.bits-pilani.ac.in/goa/). I’m a machine learning enthusiast and developer, with experience in implementing deep learning models for **computer vision** tasks, including **semantic segmentation, and super resolution**. Currently exploring **Generative Models, Self‑supervised learning**, and **Efficient Deep Learning**. I'm also a member of the [Society for Artificial Intelligence and Deep Learning](www.saidl.in) at BITS Pilani.
 
-I’ve worked on projects involving Time Series forecasting, Image Segmentation, Super Resolution, and Bayesian Neural Networks. I have been a research intern at the [National Center for Polar and Ocean Research](https://www.ncpor.res.in/). My work here involved implementing Deep Learning models to **forecast Antarctic weather**, using **time-series data**. I'm also a member of the [Society for Artificial Intelligence and Deep Learning](www.saidl.in) at BITS Pilani.
+I'm currently working on an **Efficient Image Segmentation and Visual Question Answering (VQA)** system for aerial flood images, which can run on **computationally constrained devices**. In the past, I’ve worked on Time Series forecasting, Image Segmentation, Super Resolution, and Bayesian Neural Networks. I have been a research intern at the [National Center for Polar and Ocean Research](https://www.ncpor.res.in/), where I was involved implementing Deep Learning models to **forecast Antarctic weather**, using **time-series data**.
 
 ## Updates
 
