@@ -7,6 +7,6 @@ venue: ''
 location: ''
 ---
 
-[ongoing] This project is related to the [EarthVision 2021 ‑ FloodNet Challenge](http://www.classic.grss-ieee.org/earthvision2021/challenge.html), which involves Semi‑Supervised **Semantic Segmentation of aerial images of flood hit regions**, and **Visual Question Answering (VQA)** of the flood conditions based on the segmentation. Existing semantic segmentation models for such aerial datasets are **computationally intensive**. The project aims to obtain **near‑real time** high quality results on such VQA tasks, and develop a Neural Network that can run on **computationally constrained devices** such as drones.
+[ongoing] Working towards an **Image Segmentation and Visual Question Answering (VQA)** system for the [FloodNet challenge](http://www.classic.grss-ieee.org/earthvision2021/challenge.html), which is efficient enough to run on **computationally constrained devices** such as flood rescue drones. The VQA system is based on **4-adjacency graphs** of the segmentation maps, using connected components to count the number of flooded/non‑flooded houses and roads. The segmentation network is currently in progress, training the already efficient [GLNet](https://arxiv.org/abs/2204.08917) on FloodNet’s aerial dataset.
 
 Supervisor: [Sravan Danda](https://www.bits-pilani.ac.in/goa/dandas/profile), BITS Pilani
