@@ -1,5 +1,5 @@
 ---
-title: 'Efficient Segmentation and VQA on Aerial Flood Images'
+title: 'Semi‐Supervised Segmentation and VQA on Aerial Flood Images'
 collection: projects
 type: 'University Project'
 permalink: /projects/floodnet
@@ -7,6 +7,7 @@ venue: ''
 location: ''
 ---
 
-[ongoing] Working towards an **Image Segmentation and Visual Question Answering (VQA)** system for the [FloodNet challenge](http://www.classic.grss-ieee.org/earthvision2021/challenge.html), which is efficient enough to run on **computationally constrained devices** such as flood rescue drones. The VQA system is based on **4-adjacency graphs** of the segmentation maps, using connected components to count the number of flooded/non‑flooded houses and roads. The segmentation network is currently in progress, training the already efficient [GLNet](https://arxiv.org/abs/2204.08917) on FloodNet’s aerial dataset.
-
-Supervisor: [Sravan Danda](https://www.bits-pilani.ac.in/goa/dandas/profile), BITS Pilani
+[ongoing] Designed a **semi‐supervised Image Segmentation** and **Graph based Visual Question Answering** system for the [FloodNet challenge](http://www.classic.grss-ieee.org/earthvision2021/challenge.html).\\
+The Segmentation network is based on [CutMix](https://arxiv.org/abs/1905.04899) and [Cross Pseudo Supervision](https://arxiv.org/abs/2106.01226). \\
+The VQA system applies **geodesic dilation and morphological operations** on the segmentation maps. Connected component counts are per‐formed on **4‐adjacency graphs** made from the processed segmentation maps.\\
+Supervised by: [Sravan Danda](https://scholar.google.com/citations?user=5kSGWFoAAAAJ&hl=en) - BITS Pilani

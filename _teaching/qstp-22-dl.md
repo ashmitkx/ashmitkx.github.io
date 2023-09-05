@@ -8,4 +8,5 @@ date: 2022-07-11
 location: 'Goa, India'
 ---
 
-I'll be one of the instructors for the **Introduction to Deep Learning** course, which provides introductory knowledge about **Deep Learning, Computer Vision, Natural Language Processing, and Generative Models**. The course is organized by Quark Controls, at BITS Pilani - Goa, during summer 2022.
+Co‐instructed for the Introduction to Deep Learning course. The course provides introductory knowledge and assignments on Deep Learning, Computer Vision, Natural Language Processing, and Generative
+Models.

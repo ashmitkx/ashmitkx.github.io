@@ -10,7 +10,7 @@ locale: 'en-US'
 title: 'Ashmit Khandelwal'
 title_separator: '-'
 name: &name 'Ashmit Khandelwal'
-description: &description 'Computer Science Student'
+description: &description 'Machine Learning Researcher'
 url: https://ashmitkx.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: '' # the subpath of your site, e.g. "/blog"
 repository: 'ashmitkx/ashmitkx.github.io'
@@ -80,7 +80,7 @@ analytics:
 author:
     name: 'Ashmit Khandelwal'
     avatar: 'profile.png'
-    bio: 'Computer Science Undergraduate at BITS Pilani'
+    bio: 'Research Intern @Adobe | CompSci @BITS Pilani | Pitt | APPCAIR | SAiDL'
     location: 'Goa, India'
     employer:
     pubmed:
@@ -169,6 +169,9 @@ kramdown:
 
 # Collections
 collections:
+    work:
+        output: true
+        permalink: /:collection/:path/
     projects:
         output: true
         permalink: /:collection/:path/
@@ -205,7 +208,16 @@ defaults:
       values:
           layout: single
           author_profile: true
-      # _projects
+    # _work
+    - scope:
+          path: ''
+          type: work
+      values:
+          layout: single
+          author_profile: true
+          share: true
+          comments: true
+    # _projects
     - scope:
           path: ''
           type: projects

@@ -8,17 +8,31 @@ redirect_from:
     - /about.html
 ---
 
-I'm Ashmit Khandelwal, a third year undergraduate Computer Science student at [BITS Pilani, K.K. Birla Goa Campus](https://www.bits-pilani.ac.in/goa/), interning at the **Adobe Media and Data Science Research** lab, and a member of the [Society for Artificial Intelligence and Deep Learning](www.saidl.in) at BITS Pilani. As a machine learning researcher, I'm broadly interested in **Deep Learning and Computer Vision research**. I have experience in implementing neural networks for tasks **such as visual question answering, semantic segmentation, and super resolution**.
+I'm Ashmit Khandelwal, final year Computer Science student at [BITS Pilani](https://www.bits-pilani.ac.in/goa/), Machine Learning Research Intern at [Adobe](https://research.adobe.com/), Research Assistant at [University of Pittsburgh](https://www.pitt.edu/), and core member at [SAiDL](www.saidl.in). I'm broadly interested in Vision, Language, and the relation between these media and their consumers.
 
-I’m currently working on a research project under [Prof. Sravan Danda](https://scholar.google.com/citations?user=5kSGWFoAAAAJ&hl=en), working towards an **Image Segmentation and Visual Question Answering (VQA)** system for the [FloodNet challenge](http://www.classic.grss-ieee.org/earthvision2021/challenge.html), which is efficient enough to run on **computationally constrained devices** such as flood rescue drones.
+### My research experiance spans working with:
 
-Besides this, I'm also working with Adobe on finding correlations between and predicting **Saliency and Memorability** of short video **advertisements**. In the past, I’ve worked on Time Series forecasting, Image Segmentation, Super Resolution, and Bayesian Neural Networks.
+<img src="../files/adobe.png" width="50" height="50" align="center"/> &ensp; [Yaman Kumar](https://sites.google.com/view/yaman-kumar/) at Adobe Research
 
-## Updates
+<img src="../files/pitt.png" width="50" height="50" align="center"/> &ensp; [Adriana Kovashka](https://people.cs.pitt.edu/~kovashka/) at University of Pittsburgh
 
-_Dec '22_ - I'll be working on research with [APPCAIR](https://www.bits-pilani.ac.in/appcair/) and [Wadhwani AI](https://www.wadhwaniai.org/) during the next semester.
+<img src="../files/appcair.png" width="50" height="50" align="center"> &ensp; [APPCAIR](https://web.bits-pilani.ac.in/APPCAIR/) at BITS Pilani
 
-_Nov '22_ - Started working informally at Adobe Media and Data Science Research, on Saliency and Memorability of advertisements.
+<img src="../files/bits.png" width="50" height="50" align="center"> &ensp; [Sravan Danda](https://scholar.google.com/citations?user=5kSGWFoAAAAJ&hl=en) at BITS Pilani
+
+**My research work** - "[Large Content And Behavior Models To Understand, Simulate, And Optimize Content And Behavior](https://arxiv.org/abs/2309.00359)", done in collaboration with Adobe Research, is submitted to *ICLR 2024*.
+
+**I've worked on** simulating human behavior using large language models, integrating vision in language models, semi-supervised segmentation, neural network pruning, Bayesian networks, and mass data scraping and processing. Check out my [CV](https://ashmitkx.github.io/files/ashmit-khandelwal-cv.pdf) for more details.
+
+# Updates
+
+_Sep '23_ - My work on "[Large Content And Behavior Models To Understand, Simulate, And Optimize Content And Behavior](https://arxiv.org/abs/2309.00359)" is available on arXiv, and submitted to ICLR 2024.
+
+_Jun '23_ - I'll be working remotely with Dr. Adriana Kovashka at the University of Pittsburgh as a Research Assistant.
+
+_Jan '23_ - I'll be working as a Research Assistant with [APPCAIR](https://www.bits-pilani.ac.in/appcair/) and [Wadhwani AI](https://www.wadhwaniai.org/) during the spring semester.
+
+_Nov '22_ - I'll be joining [Adobe Media and Data Science Research](https://research.adobe.com/) as a Research Intern.
 
 _Nov '22_ - I'll be an instructor for the Introduction to ML and DL course by Center of Technical Education, BITS Pilani, Goa.
 
@@ -34,4 +48,4 @@ _May '22_ - Interning at [National Centre for Polar and Ocean Research](https://
 
 <br/>
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fashmitkx.github.io&count_bg=%23096CDD&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visits&edge_flat=true)](https://hits.seeyoufarm.com)
+<!-- [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fashmitkx.github.io&count_bg=%23096CDD&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visits&edge_flat=true)](https://hits.seeyoufarm.com) -->
