@@ -20,7 +20,7 @@ I'm Ashmit Khandelwal, final year Computer Science student at [BITS Pilani](http
 
 <img src="../files/bits.png" width="50" height="50" align="center"> &ensp; [Sravan Danda](https://scholar.google.com/citations?user=5kSGWFoAAAAJ&hl=en) at BITS Pilani
 
-**My research work** - "[Large Content And Behavior Models To Understand, Simulate, And Optimize Content And Behavior](https://arxiv.org/abs/2309.00359)", done in collaboration with Adobe Research, is submitted to *ICLR 2024*.
+**My research work** - "[Large Content And Behavior Models To Understand, Simulate, And Optimize Content And Behavior](https://arxiv.org/abs/2309.00359)", done in collaboration with Adobe Research, is submitted to *ICLR 2024*, with pre-rebuttal reviews of 10,8,6,5. 
 
 **I've worked on** simulating human behavior using large language models, integrating vision in language models, semi-supervised segmentation, neural network pruning, Bayesian networks, and mass data scraping and processing. Check out my [CV](https://ashmitkx.github.io/files/ashmit-khandelwal-cv.pdf) for more details.
 
