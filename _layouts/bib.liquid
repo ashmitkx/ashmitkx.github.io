@@ -25,6 +25,24 @@
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
+      
+      {%- if entry.spotlight -%}
+        {%- if site.data.venues.spotlight -%}
+          {% if site.data.venues.spotlight.color != blank %}
+            {% assign spotlight_color = site.data.venues.spotlight.color %}
+          {% endif %}
+          {% if site.data.venues.spotlight.text != blank %}
+            {% assign spotlight_text = site.data.venues.spotlight.text %}
+          {% endif %}
+          {% if site.data.venues.spotlight.icon != blank %}
+            {% assign spotlight_icon = site.data.venues.spotlight.icon %}
+          {% endif %}
+        {%- endif -%}
+        
+        <div class="spotlight-badge badge rounded w-100 mt-2" style="background-color: {{ spotlight_color }}; color: #fff;">
+          <i class="{{ spotlight_icon }}"></i> {{ spotlight_text }}
+        </div>
+      {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
