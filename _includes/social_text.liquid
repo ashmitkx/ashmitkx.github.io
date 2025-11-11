@@ -1,0 +1,18 @@
+{% assign social_links = "" | split: "" %}
+{% for social in site.data.socials %}
+  {% case social[0] %}
+    {% when 'email' %}
+      {% assign link = '<a href="mailto:' | append: social[1] | append: '" title="Email" style="margin: 0 0.5rem;">Email</a>' %}
+      {% assign social_links = social_links | push: link %}
+    {% when 'linkedin_username' %}
+      {% assign link = '<a href="https://www.linkedin.com/in/' | append: social[1] | append: '" title="LinkedIn" target="_blank" rel="noopener noreferrer" style="margin: 0 0.5rem;">LinkedIn</a>' %}
+      {% assign social_links = social_links | push: link %}
+    {% when 'scholar_userid' %}
+      {% assign link = '<a href="https://scholar.google.com/citations?user=' | append: social[1] | append: '" title="Google Scholar" target="_blank" rel="noopener noreferrer" style="margin: 0 0.5rem;">G-Scholar</a>' %}
+      {% assign social_links = social_links | push: link %}
+    {% when 'x_username' %}
+      {% assign link = '<a href="https://x.com/' | append: social[1] | append: '" title="X (Twitter)" target="_blank" rel="noopener noreferrer" style="margin: 0 0.5rem;">X</a>' %}
+      {% assign social_links = social_links | push: link %}
+  {% endcase %}
+{% endfor %}
+{{ social_links | join: " | " }}

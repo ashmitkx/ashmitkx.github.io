@@ -1,0 +1,6 @@
+{% for social in site.data.socials %}
+  {% case social[0] %}
+    {% when 'email' %}
+      <a href="mailto:{{ social[1] | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
+  {% endcase %}
+{% endfor %}
