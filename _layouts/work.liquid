@@ -55,7 +55,7 @@ layout: default
                 <!-- Collaborators -->
                 {% if work.collaborators and work.collaborators.size > 0 %}
                   <div class="work-collaborators {% if work.lab_page %}mb-1{% else %}mb-3{% endif %}">
-                    <strong>Advisors:</strong>
+                    <strong>{% if work.collaborators.size == 1 %}Advisor:{% else %}Advisors:{% endif %}</strong>
                     {% for collaborator in work.collaborators %}
                       {% if collaborator.url and collaborator.url != "#" %}
                         <a href="{{ collaborator.url }}" target="_blank" rel="noopener noreferrer">{{ collaborator.name }}</a>

@@ -14,12 +14,12 @@
 - name: "University of Pittsburgh"
   logo: "pitt.png"
   position: "Research Intern"
-  period: "Winter 2023"
+  period: "Fall 2023"
   location: "Remote"
   collaborators:
     - name: "Dr. Adriana Kovashka"
       url: "https://people.cs.pitt.edu/~kovashka/"
-  description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet veniam incidunt commodi fugit est, quas optio magnam at ducimus et."
+  description: "Benchmarked vision‑language models on inferring the message in rhetorical and atypical imagery used in advertisements, through three  novel tasks. Found that VLMs struggle with reasoning about atypicality, but simple methods enable atypicality‑aware verbalization and improve rhetorical image understanding."
 
 - name: "Adobe MDSR"
   logo: "adobe.png"
