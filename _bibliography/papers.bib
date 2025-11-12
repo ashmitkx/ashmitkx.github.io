@@ -8,11 +8,12 @@
       booktitle={International Conference on Learning Representations},
       abbr={ICLR},
       primaryClass={cs.CL},
-      website={behavior-in-the-wild.github.io/LCBM},
+      website={https://behavior-in-the-wild.github.io/LCBM},
       arxiv={2309.00359},
-      poster={iclr.cc/virtual/2024/poster/18547},
+      poster={https://iclr.cc/virtual/2024/poster/18547},
       selected={true},
-      spotlight={true}
+      spotlight={true},
+      abstract={Shannon and Weaver's seminal information theory divides communication into three levels: technical, semantic, and effectiveness. While the technical level deals with the accurate reconstruction of transmitted symbols, the semantic and effectiveness levels deal with the inferred meaning and its effect on the receiver. Large Language Models (LLMs), with their wide generalizability, make some progress towards the second level. However, LLMs and other communication models are not conventionally designed for predicting and optimizing communication for desired receiver behaviors and intents. As a result, the effectiveness level remains largely untouched by modern communication systems. In this paper, we introduce the receivers' "behavior tokens," such as shares, likes, clicks, purchases, and retweets, in the LLM's training corpora to optimize content for the receivers and predict their behaviors. Other than showing similar performance to LLMs on content understanding tasks, our trained models show generalization capabilities on the behavior dimension for behavior simulation, content simulation, behavior understanding, and behavior domain adaptation. We show results on all these capabilities using a wide range of tasks on three corpora. We call these models Large Content and Behavior Models (LCBMs). Further, to spur more research on LCBMs, we release our new Content Behavior Corpus (CBC), a repository containing communicator, message, and corresponding receiver behavior.}
 }
 
 @INPROCEEDINGS{10944088,
@@ -26,7 +27,8 @@
   pages={4788-4798},
   arxiv={2409.10719},
   keywords={Visualization;Computer vision;Codes;Large language models;Focusing;Media;Benchmark testing;Cognition;Data mining;Object recognition},
-  selected={true}
+  selected={true},
+  abstract={Vision language models (VLMs) have shown strong zero-shot generalization across various tasks, especially when integrated with large language models (LLMs). However, their ability to comprehend rhetorical and persuasive visual media, such as advertisements, remains understudied. Ads often employ atypical imagery, using surprising object juxtapositions to convey shared properties. For example, Fig. 1 (e) shows a beer with a feather-like texture. This requires advanced reasoning to deduce that this atypical representation signifies the beer's lightness. We introduce three novel tasks, Multi-label Atypicality Classification, Atypicality Statement Retrieval, and Aypical Object Recognition, to benchmark VLMs' understanding of atypicality in persuasive images. We evaluate how well VLMs use atypicality to infer an ad's message and test their reasoning abilities by employing semantically challenging negatives. Finally, we pioneer atypicality-aware verbalization by extracting comprehensive image descriptions sensitive to atypical elements. Our findings reveal that: (1) VLMs lack advanced reasoning capabilities compared to LLMs; (2) simple, effective strategies can extract atypicality-aware information, leading to comprehensive image verbalization; (3) atypicality aids persuasive advertisement understanding.}
 }
 
 @inproceedings{
@@ -38,5 +40,6 @@ abbr={NeurIPS Workshop},
 year={2025},
 arxiv={2508.04183},
 url={https://openreview.net/forum?id=4IjL5CHKT7},
-selected={true}
+selected={true},
+abstract={Information tasks such as writing surveys or analytical reports require complex search and reasoning, and have recently been grouped under the umbrella of deep research - a term also adopted by recent models targeting these capabilities. Despite growing interest, the scope of the deep research task remains underdefined and its distinction from other reasoning-intensive problems is poorly understood. In this paper, we propose a formal characterization of the deep research (DR) task and introduce a benchmark to evaluate the performance of DR systems. We argue that the core defining feature of deep research is not the production of lengthy report-style outputs, but rather the high fan-out over concepts required during the search process, i.e., broad and reasoning-intensive exploration. To enable objective evaluation, we define DR using an intermediate output representation that encodes key claims uncovered during search-separating the reasoning challenge from surface-level report generation. Based on this formulation, we propose a diverse, challenging benchmark LiveDRBench with 100 challenging tasks over scientific topics (e.g., datasets, materials discovery, prior art search) and public interest events (e.g., flight incidents, movie awards). Across state-of-the-art DR systems, F1 score ranges between 0.02 and 0.72 for any sub-category. OpenAI's model performs the best with an overall F1 score of 0.55. Analysis of reasoning traces reveals the distribution over the number of referenced sources, branching, and backtracking events executed by current DR systems, motivating future directions for improving their search mechanisms and grounding capabilities.}
 }

@@ -8,7 +8,7 @@
       url: "https://www.microsoft.com/en-us/research/people/nagarajn/"
     - name: "Dr. Amit Sharma"
       url: "https://amitsharma.in/"
-  description: "Working on search and reasoning with Large Language Models (LLMs). Focusing on Deep Research (DR) paradigms where LLM systems perform structured search over large corpora, developing methods for claim verification and steering search processes."
+  description: "Working on search and reasoning with Large Language Models (LLMs). Focusing on the Deep Research (DR) paradigm, where LLM systems perform structured search over large corpora, and developing methods for claim verification and steering search processes."
   lab_page: "https://www.microsoft.com/en-us/research/lab/microsoft-research-india/"
 
 - name: "University of Pittsburgh"
@@ -19,7 +19,7 @@
   collaborators:
     - name: "Dr. Adriana Kovashka"
       url: "https://people.cs.pitt.edu/~kovashka/"
-  description: "Benchmarked vision‑language models on inferring the message in rhetorical and atypical imagery used in advertisements, through three  novel tasks. Found that VLMs struggle with reasoning about atypicality, but simple methods enable atypicality‑aware verbalization and improve rhetorical image understanding."
+  description: "Benchmarked vision-language models on inferring the message in rhetorical and atypical imagery used in advertisements, through three  novel tasks. Found that VLMs struggle with reasoning about atypicality, but simple methods enable atypicality-aware verbalization and improve rhetorical image understanding."
 
 - name: "Adobe MDSR"
   logo: "adobe.png"
@@ -31,5 +31,5 @@
       url: "https://sites.google.com/view/yaman-kumar/"
     - name: "Dr. Changyou Chen"
       url: "https://cse.buffalo.edu/~changyou/"
-  description: "Worked on predicting human behavior at scale using multimodal Large Language Models. This research resulted in a spotlight publication at ICLR 2024 on Large Content and Behavior Models."
+  description: "Worked on modelling and simulating human behavior at scale from Youtube Videos. Trained multimodal LLM architectures that integrated video and textual representations, achieving significant performance gains and surpassing GPT-4 on multiple behavior prediction tasks. Published at ICLR 2024, with a spotlight presentation."
   lab_page: "https://adobe.mdsr.live/"
