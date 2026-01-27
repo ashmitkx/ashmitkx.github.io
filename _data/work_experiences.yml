@@ -8,7 +8,7 @@
       url: "https://www.microsoft.com/en-us/research/people/nagarajn/"
     - name: "Dr. Amit Sharma"
       url: "https://amitsharma.in/"
-  description: "Working on search and reasoning with Large Language Models (LLMs). Focusing on the Deep Research (DR) paradigm, where LLM systems perform structured search over large corpora, and developing methods for claim verification and steering search processes."
+  description: "Working on search and reasoning with Large Language Models (LLMs). Focusing on the Deep Research (DR) paradigm, where LLM systems perform structured search over large corpora, and developing methods for claim verification and steering reasoning processes."
   lab_page: "https://www.microsoft.com/en-us/research/lab/microsoft-research-india/"
 
 - name: "University of Pittsburgh"
