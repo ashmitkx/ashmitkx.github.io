@@ -27,7 +27,7 @@
   pages={4788-4798},
   arxiv={2409.10719},
   keywords={Visualization;Computer vision;Codes;Large language models;Focusing;Media;Benchmark testing;Cognition;Data mining;Object recognition},
-  selected={true},
+  selected={false},
   abstract={Vision language models (VLMs) have shown strong zero-shot generalization across various tasks, especially when integrated with large language models (LLMs). However, their ability to comprehend rhetorical and persuasive visual media, such as advertisements, remains understudied. Ads often employ atypical imagery, using surprising object juxtapositions to convey shared properties. For example, Fig. 1 (e) shows a beer with a feather-like texture. This requires advanced reasoning to deduce that this atypical representation signifies the beer's lightness. We introduce three novel tasks, Multi-label Atypicality Classification, Atypicality Statement Retrieval, and Aypical Object Recognition, to benchmark VLMs' understanding of atypicality in persuasive images. We evaluate how well VLMs use atypicality to infer an ad's message and test their reasoning abilities by employing semantically challenging negatives. Finally, we pioneer atypicality-aware verbalization by extracting comprehensive image descriptions sensitive to atypical elements. Our findings reveal that: (1) VLMs lack advanced reasoning capabilities compared to LLMs; (2) simple, effective strategies can extract atypicality-aware information, leading to comprehensive image verbalization; (3) atypicality aids persuasive advertisement understanding.}
 }
 
@@ -49,9 +49,11 @@ bhat2026interwhen,
 title={interwhen: A Generalizable Framework for Verifiable Reasoning with Test-time Monitors},
 author={Vishak K Bhat and Prateek Chanda and Ashmit Khandelwal and Maitreyi Swaroop and Subbarao Kambhampati and Vineeth N. Balasubramanian and Nagarajan Natarajan and Amit Sharma},
 booktitle={ArXiv},
-abbr={ArXiv},
+abbr={ArXiv preprint},
 year={2026},
 url={https://arxiv.org/abs/2602.11202},
+arxiv={2602.11202},
 selected={true},
 abstract={Reasoning models produce long traces of intermediate decisions and tool calls, making test-time verification increasingly important for ensuring correctness. Existing approaches either verify only the final answer, which misses early errors, or rely on branch-and-verify strategies that explore multiple trajectories at substantially higher compute cost. We introduce interwhen, a single-trajectory verification framework that steers model behavior by providing feedback on intermediate verifiable properties. Our method addresses two key challenges. First, extracting intermediate solutions from a reasoning trace typically requires prompt engineering or external task decomposition into fixed steps, which can constrain the model's reasoning strategy. Instead, we periodically poll the reasoning trace and fork inference to recover intermediate solutions without imposing any predefined structure. Second, frequent verifier calls can increase latency; we address this by running verifiers asynchronously and interrupting the main trajectory only when an error is detected, leaving generation unaffected otherwise. This design improves both reliability and efficiency, and naturally supports early stopping based on consistency over recent intermediate solutions. Across benchmarks in code generation and arithmetic, logical and spatial reasoning, interwhen improves accuracy by up to 15 percentage points over standard chain-of-thought execution while staying within 1.5x of token compute cost. Moreover, on every dataset, interwhen achieves a Pareto-optimal operating point between accuracy and efficiency compared to existing test-time verification methods.
+}
 }

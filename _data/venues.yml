@@ -5,11 +5,13 @@
 "PhysRev":
   url: https://journals.aps.org/
 
+"ArXiv preprint":
+  color: "#b31a1b"
+
 "Vision":
   color: "#009f36"
   
 "ICLR":
-"ICLR Workshop":
   url: https://iclr.cc/
   color: "#519322"
   
@@ -21,14 +23,6 @@
 "NeurIPS Workshop":
   url: https://nips.cc/
   color: "#68448b"
-
-"ICML":
-"ICML Workshop":
-  url: https://icml.cc/
-  color: "#eeeeee"
-
-"arXiv":
-  color: "#b31b1b"
 
 spotlight:
   color: "#cc5555"
