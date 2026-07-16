@@ -37,23 +37,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/assets/pdf/ashmit_khandelwal_cv.pdf";
           },
-        },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+        },{id: "news-our-work-on-defining-and-benchmarking-deep-research-was-accepted-at-iclr-2026",
+          title: 'Our work on defining and benchmarking Deep Research was accepted at ICLR 2026!...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-interwhen-our-work-on-test-time-monitoring-and-steering-for-llm-agents-is-up-on-arxiv",
+          title: 'interwhen, our work on test-time monitoring and steering for LLM agents, is up...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-ll-be-joining-cmu-s-msml-program-in-fall-2026",
+          title: 'I’ll be joining CMU’s MSML program in Fall 2026.',
           description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%61%73%68%6D%69%74.%63%6F%6E%74%61%63%74@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%61%73%68%6D%69%74%6B@%63%73.%63%6D%75.%65%64%75", "_blank");
         },
       },{
         id: 'social-linkedin',
