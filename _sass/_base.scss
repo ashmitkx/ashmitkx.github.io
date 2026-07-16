@@ -35,6 +35,10 @@ table {
   }
 }
 
+.news th {
+  font-weight: normal !important;
+}
+
 a,
 table.table a {
   color: var(--global-theme-color);
@@ -920,7 +924,7 @@ html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  transition: all 750ms !important;
+  transition: background-color 250ms ease !important, color 250ms ease !important;
   transition-delay: 0 !important;
 }
 

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Fellow at Microsoft Research
+subtitle: Incoming MS Student at CMU MLD
 
 profile:
   align: right
@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a researcher at Microsoft Research working with <a href="https://www.microsoft.com/en-us/research/people/nagarajn/">Dr. Nagarajan Natarajan</a> and <a href="https://amitsharma.in/">Dr. Amit Sharma</a> on verification and steering for Large Language Model (LLM) agents. I study how these systems search, analyze, and interact with real-world environments, and methods to monitor and steer them.
+I'm an incoming Master's student in the Machine Learning Department at CMU. Previously, I was a Research Fellow at Microsoft Research working with <a href="https://www.microsoft.com/en-us/research/people/nagarajn/">Dr. Nagarajan Natarajan</a> and <a href="https://amitsharma.in/">Dr. Amit Sharma</a> on verification and steering for Large Language Model (LLM) agents. Broadly, I'm interested in studying how these systems reason, interact with environments, and methods to monitor and steer them.
 
 My recent work <a href="https://arxiv.org/pdf/2602.11202v2">interwhen</a>, focuses on test-time verifiers that asynchronously monitor LLM trajectories at runtime, intervening when the agent deviates from a defined specification. We see improvements in both task performance and soundness across code generation, logical reasoning, and agentic settings. I've also worked on <a href="https://arxiv.org/abs/2508.04183">giving a definition to and evaluating Deep Research</a>, published at ICLR 2026. These are LLM systems that perform structured search over large corpora.
 

@@ -7,9 +7,9 @@ first_name: Ashmit
 middle_name: 
 last_name: Khandelwal
 contact_note:
-description: Microsoft Research | Search, Reasoning, LLMs
+description: MSML at CMU | LLM Reasoning & Verification
 footer_text:
-keywords: ashmit, khandelwal, microsoft, adobe, pitt, bits, pilani, research, llm, search, reasoning, nlp # add your own keywords or leave empty
+keywords: ashmit, khandelwal, cmu, microsoft, adobe, pitt, bits, pilani, research, llm, search, reasoning, verification, nlp # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
