@@ -35,6 +35,58 @@ table {
   }
 }
 
+table.service-table {
+  width: 100%;
+  max-width: 36rem;
+  margin-bottom: 1rem;
+
+  td {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    vertical-align: top;
+    transition: none;
+  }
+
+  tr,
+  tr:hover {
+    background: transparent;
+    transform: none;
+    transition: none;
+    animation: none;
+  }
+
+  tr:last-child td {
+    border-bottom: 0;
+  }
+
+  td.service-year {
+    width: 7rem;
+    padding-right: 1.5rem;
+    color: var(--global-text-color-light);
+    font-weight: 600;
+  }
+
+  .service-line,
+  .service-meta,
+  .service-detail {
+    display: block;
+  }
+
+  .service-role {
+    font-weight: 700;
+  }
+
+  .service-meta,
+  .service-detail {
+    margin-top: 0.25rem;
+    color: var(--global-text-color-light);
+  }
+
+  .service-detail {
+    font-size: 0.9rem;
+  }
+}
+
 .news th {
   font-weight: normal !important;
 }
