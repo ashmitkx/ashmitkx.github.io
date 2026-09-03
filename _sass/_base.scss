@@ -35,32 +35,23 @@ table {
   }
 }
 
-table.service-table {
+.service-list {
   width: 100%;
   max-width: 36rem;
   margin-bottom: 1rem;
 
-  td {
+  .service-item {
+    display: grid;
+    grid-template-columns: 7rem 1fr;
     padding: 1rem 0;
     border-bottom: 1px solid var(--global-divider-color);
-    vertical-align: top;
-    transition: none;
   }
 
-  tr,
-  tr:hover {
-    background: transparent;
-    transform: none;
-    transition: none;
-    animation: none;
-  }
-
-  tr:last-child td {
+  .service-item:last-child {
     border-bottom: 0;
   }
 
-  td.service-year {
-    width: 7rem;
+  .service-year {
     padding-right: 1.5rem;
     color: var(--global-text-color-light);
     font-weight: 600;
