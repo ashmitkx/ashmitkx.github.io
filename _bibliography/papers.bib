@@ -1,6 +1,20 @@
 ---
 ---
 
+@inproceedings{
+bhat2026interwhen,
+title={interwhen: A Generalizable Framework for Verifiable Reasoning with Test-time Monitors},
+author={Vishak K Bhat and Prateek Chanda and Vijval Ekbote and Ashmit Khandelwal and Maitreyi Swaroop and Subbarao Kambhampati and Vineeth N. Balasubramanian and Nagarajan Natarajan and Amit Sharma},
+booktitle={Neural Information Processing Systems},
+abbr={NeurIPS},
+year={2026},
+url={https://arxiv.org/abs/2602.11202},
+arxiv={2602.11202},
+selected={true},
+abstract={Reasoning models produce long traces of intermediate decisions and tool calls, making test-time verification important for ensuring correctness. Existing approaches either verify only the final answer, which misses early errors, or rely on branch-and-verify strategies that explore multiple trajectories. We introduce interwhen, a single-trajectory verification framework that steers model behavior by providing feedback on intermediate reasoning traces. It addresses two key challenges. First, given a set of verifiers, obtaining verifiable states from the reasoning trace typically requires prompt engineering or external task decomposition into fixed steps. Instead, we propose a monitoring system that periodically polls the reasoning trace and forks inference of the reasoning model to recover intermediate states. Verifiers are run asynchronously alongside generation, adding negligible overhead on correct executions and intervening only when violations occur. Second, beyond math and code, a central challenge for process verification is the scarcity of verifiers. interwhen addresses this through automatic verifier synthesis from natural-language policy documents. Given a policy, it can generate code-based verifiers, including provably correct verifiers in Lean and z3. Together, these contributions yield a plug-and-play test-time verification system that can improve task completion and policy compliance of any reasoning agent. On reasoning benchmarks where policies encode mathematical or logical constraints, interwhen achieves near-perfect accuracy for reasoning models using a fraction of the tokens of baselines. On agentic benchmarks with policy-based verifier generation, it enables improvements in task quality for SLMs without any finetuning, e.g., task completion rate of Qwen3-30B jumps from 32% to 87% on the telecom domain in tau2-bench.
+}
+}
+
 @inproceedings{khandelwal2024largecontentbehaviormodels,
       title={Large Content And Behavior Models To Understand, Simulate, And Optimize Content And Behavior}, 
       author={Ashmit Khandelwal* and Aditya Agrawal* and Aanisha Bhattacharyya* and Yaman K Singla* and Somesh Singh and Uttaran Bhattacharya and Ishita Dasgupta and Stefano Petrangeli and Rajiv Ratn Shah and Changyou Chen and Balaji Krishnamurthy},
@@ -14,6 +28,19 @@
       selected={true},
       spotlight={true},
       abstract={Shannon and Weaver's seminal information theory divides communication into three levels: technical, semantic, and effectiveness. While the technical level deals with the accurate reconstruction of transmitted symbols, the semantic and effectiveness levels deal with the inferred meaning and its effect on the receiver. Large Language Models (LLMs), with their wide generalizability, make some progress towards the second level. However, LLMs and other communication models are not conventionally designed for predicting and optimizing communication for desired receiver behaviors and intents. As a result, the effectiveness level remains largely untouched by modern communication systems. In this paper, we introduce the receivers' "behavior tokens," such as shares, likes, clicks, purchases, and retweets, in the LLM's training corpora to optimize content for the receivers and predict their behaviors. Other than showing similar performance to LLMs on content understanding tasks, our trained models show generalization capabilities on the behavior dimension for behavior simulation, content simulation, behavior understanding, and behavior domain adaptation. We show results on all these capabilities using a wide range of tasks on three corpora. We call these models Large Content and Behavior Models (LCBMs). Further, to spur more research on LCBMs, we release our new Content Behavior Corpus (CBC), a repository containing communicator, message, and corresponding receiver behavior.}
+}
+
+@inproceedings{
+java2025characterizing,
+title={Characterizing Deep Research: A Benchmark and Formal Definition},
+author={Abhinav Java* and Ashmit Khandelwal* and Sukruta Prakash Midigeshi* and Aaron Halfaker and Amit Deshpande and Navin Goyal and Ankur Gupta and Nagarajan Natarajan and Amit Sharma},
+booktitle={International Conference on Learning Representations},
+abbr={ICLR},
+year={2026},
+arxiv={2508.04183},
+url={https://openreview.net/forum?id=5EmpOCq1Ql},
+selected={true},
+abstract={Information tasks such as writing surveys or analytical reports require complex search and reasoning, and have recently been grouped under the umbrella of deep research - a term also adopted by recent models targeting these capabilities. Despite growing interest, the scope of the deep research task remains underdefined and its distinction from other reasoning-intensive problems is poorly understood. In this paper, we propose a formal characterization of the deep research (DR) task and introduce a benchmark to evaluate the performance of DR systems. We argue that the core defining feature of deep research is not the production of lengthy report-style outputs, but rather the high fan-out over concepts required during the search process, i.e., broad and reasoning-intensive exploration. To enable objective evaluation, we define DR using an intermediate output representation that encodes key claims uncovered during search-separating the reasoning challenge from surface-level report generation. Based on this formulation, we propose a diverse, challenging benchmark LiveDRBench with 100 challenging tasks over scientific topics (e.g., datasets, materials discovery, prior art search) and public interest events (e.g., flight incidents, movie awards). Across state-of-the-art DR systems, F1 score ranges between 0.02 and 0.72 for any sub-category. OpenAI's model performs the best with an overall F1 score of 0.55. Analysis of reasoning traces reveals the distribution over the number of referenced sources, branching, and backtracking events executed by current DR systems, motivating future directions for improving their search mechanisms and grounding capabilities.}
 }
 
 @INPROCEEDINGS{10944088,
@@ -31,29 +58,6 @@
   abstract={Vision language models (VLMs) have shown strong zero-shot generalization across various tasks, especially when integrated with large language models (LLMs). However, their ability to comprehend rhetorical and persuasive visual media, such as advertisements, remains understudied. Ads often employ atypical imagery, using surprising object juxtapositions to convey shared properties. For example, Fig. 1 (e) shows a beer with a feather-like texture. This requires advanced reasoning to deduce that this atypical representation signifies the beer's lightness. We introduce three novel tasks, Multi-label Atypicality Classification, Atypicality Statement Retrieval, and Aypical Object Recognition, to benchmark VLMs' understanding of atypicality in persuasive images. We evaluate how well VLMs use atypicality to infer an ad's message and test their reasoning abilities by employing semantically challenging negatives. Finally, we pioneer atypicality-aware verbalization by extracting comprehensive image descriptions sensitive to atypical elements. Our findings reveal that: (1) VLMs lack advanced reasoning capabilities compared to LLMs; (2) simple, effective strategies can extract atypicality-aware information, leading to comprehensive image verbalization; (3) atypicality aids persuasive advertisement understanding.}
 }
 
-@inproceedings{
-java2025characterizing,
-title={Characterizing Deep Research: A Benchmark and Formal Definition},
-author={Abhinav Java* and Ashmit Khandelwal* and Sukruta Prakash Midigeshi* and Aaron Halfaker and Amit Deshpande and Navin Goyal and Ankur Gupta and Nagarajan Natarajan and Amit Sharma},
-booktitle={International Conference on Learning Representations},
-abbr={ICLR},
-year={2026},
-arxiv={2508.04183},
-url={https://openreview.net/forum?id=5EmpOCq1Ql},
-selected={true},
-abstract={Information tasks such as writing surveys or analytical reports require complex search and reasoning, and have recently been grouped under the umbrella of deep research - a term also adopted by recent models targeting these capabilities. Despite growing interest, the scope of the deep research task remains underdefined and its distinction from other reasoning-intensive problems is poorly understood. In this paper, we propose a formal characterization of the deep research (DR) task and introduce a benchmark to evaluate the performance of DR systems. We argue that the core defining feature of deep research is not the production of lengthy report-style outputs, but rather the high fan-out over concepts required during the search process, i.e., broad and reasoning-intensive exploration. To enable objective evaluation, we define DR using an intermediate output representation that encodes key claims uncovered during search-separating the reasoning challenge from surface-level report generation. Based on this formulation, we propose a diverse, challenging benchmark LiveDRBench with 100 challenging tasks over scientific topics (e.g., datasets, materials discovery, prior art search) and public interest events (e.g., flight incidents, movie awards). Across state-of-the-art DR systems, F1 score ranges between 0.02 and 0.72 for any sub-category. OpenAI's model performs the best with an overall F1 score of 0.55. Analysis of reasoning traces reveals the distribution over the number of referenced sources, branching, and backtracking events executed by current DR systems, motivating future directions for improving their search mechanisms and grounding capabilities.}
-}
 
-@inproceedings{
-bhat2026interwhen,
-title={interwhen: A Generalizable Framework for Verifiable Reasoning with Test-time Monitors},
-author={Vishak K Bhat and Prateek Chanda and Ashmit Khandelwal and Maitreyi Swaroop and Subbarao Kambhampati and Vineeth N. Balasubramanian and Nagarajan Natarajan and Amit Sharma},
-booktitle={ArXiv},
-abbr={ArXiv preprint},
-year={2026},
-url={https://arxiv.org/abs/2602.11202},
-arxiv={2602.11202},
-selected={true},
-abstract={Reasoning models produce long traces of intermediate decisions and tool calls, making test-time verification increasingly important for ensuring correctness. Existing approaches either verify only the final answer, which misses early errors, or rely on branch-and-verify strategies that explore multiple trajectories at substantially higher compute cost. We introduce interwhen, a single-trajectory verification framework that steers model behavior by providing feedback on intermediate verifiable properties. Our method addresses two key challenges. First, extracting intermediate solutions from a reasoning trace typically requires prompt engineering or external task decomposition into fixed steps, which can constrain the model's reasoning strategy. Instead, we periodically poll the reasoning trace and fork inference to recover intermediate solutions without imposing any predefined structure. Second, frequent verifier calls can increase latency; we address this by running verifiers asynchronously and interrupting the main trajectory only when an error is detected, leaving generation unaffected otherwise. This design improves both reliability and efficiency, and naturally supports early stopping based on consistency over recent intermediate solutions. Across benchmarks in code generation and arithmetic, logical and spatial reasoning, interwhen improves accuracy by up to 15 percentage points over standard chain-of-thought execution while staying within 1.5x of token compute cost. Moreover, on every dataset, interwhen achieves a Pareto-optimal operating point between accuracy and efficiency compared to existing test-time verification methods.
-}
-}
+
+
