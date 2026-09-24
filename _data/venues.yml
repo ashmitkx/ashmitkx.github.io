@@ -20,6 +20,9 @@
   color: "#0f75bc"
 
 "NeurIPS":
+  url: https://nips.cc/
+  color: "#68448b"
+
 "NeurIPS Workshop":
   url: https://nips.cc/
   color: "#68448b"
